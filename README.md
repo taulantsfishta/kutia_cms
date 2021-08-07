@@ -67,12 +67,31 @@ Projekti kutia_cms eshte krijuar me composer komanden.
 
 Pastaj eshte bere instalimi i bootstrap me ane te laralvel/ui.
 
-Databaza e krijuar quhet kutia_cms_tb.Perdore portin 8080 per dallim prej portit default 3306 qe eshte i zene ne PC time.
+Databaza e krijuar quhet kutia_cms_tb. Perdore portin 8080 per dallim prej portit default 3306 qe eshte i zene ne PC time.
 
 Fajlli i eksportuar i databazes kutia_cms_tb gjendet ne projekt me emrin kutia_cms_tb_sql.Ka te regjistruar dy usera ,me rol
 te super adminit dhe te userit.
 
-Qasja-
+------------------------Procedura e instalimit--------------------------------------
+
+1.Pasi te behet download projekti https://github.com/taulantsfishta/kutia_cms ne lokal dhe te hapet ne editor,komanda e pare qe duhet
+te shkruhet ne terminal qe ka qasje ne pathin e folderit te projektit eshte:
+
+-   composer install
+
+2.Duhet te hapet fajlli environment.txt dhe te kopjohet i teri e pastaj te bartet ne nje fajll te ri qe duhet ta krijoni te quajtur .env .
+
+3.Ne phpmyadmin krijohet databaza me emrin kutia_cms_tb.
+
+4.Per tu ekzekutuar fajlli i databazes(kutia_cms_tb.sql) me te dhenat e nevojshme ne terminal shkruhet komanda:
+
+-   php artisan db:seed --class=SqlFileSeeder;
+
+5.Ne fund per ta hap projektin shkruajm:
+
+-   php artisan serve
+
+Qasja/Login -
 
 Email:superadmin1@gmail.com
 Password:test12345

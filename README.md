@@ -69,11 +69,15 @@ Pastaj eshte bere instalimi i bootstrap me ane te laralvel/ui.
 
 Databaza e krijuar quhet kutia_cms_tb.Perdore portin 8080 per dallim prej portit default 3306 qe eshte i zene ne PC time.
 
-Fajlli i eksportuar i databazes kutia_cms_tb gjendet ne projekt me emrin kutia_cms_tb_sql.Ka te regjistruar vetem nje user,me rol
-te super adminit.
+Fajlli i eksportuar i databazes kutia_cms_tb gjendet ne projekt me emrin kutia_cms_tb_sql.Ka te regjistruar dy usera ,me rol
+te super adminit dhe te userit.
 
 Qasja-
+
 Email:superadmin1@gmail.com
+Password:test12345
+
+Email:user1@gmail.com
 Password:test12345
 
 Rolet jane te ndara ne super admin dhe user.Super admini ka qasje ne te gjith projektin,qe nenkupton ne krijimin e userve te ri, caktimin e rolev,krijimin dhe fshirjen e postev dhe fajllave dhe resetimin e passwords per users,kurse useri ka qasje vetem per krijuar,edituar dhe fshire postet dhe fajllat e tij.
